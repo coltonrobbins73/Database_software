@@ -1,53 +1,59 @@
-Genomic Data Analysis Script
-Overview
+# Genomic Data Analysis Script
+
+## Overview
 This script is designed for comprehensive processing and analysis of genomic or transcriptomic data, typically used in biomedical research or similar fields. It includes functionalities for data cleaning, merging, benchmarking, statistical analysis, and visualization.
 
-Features
-Data cleaning and formatting
-Merging datasets with metadata from various sources
-Finding differences for benchmarking and quality control
-Generating summary statistics for datasets
-Creating graphs and correlation tables
-Performing regression analysis on dataset variables
-Prerequisites
+## Features
+- Data cleaning and formatting
+- Merging datasets with metadata from various sources
+- Finding differences for benchmarking and quality control
+- Generating summary statistics for datasets
+- Creating graphs and correlation tables
+- Performing regression analysis on dataset variables
+
+## Prerequisites
 Before running the script, ensure you have the following installed:
+- Python 3.x
+- Pandas
+- NumPy
+- SciPy
+- Plotly
+- XlsxWriter
 
-Python 3.x
-Pandas
-NumPy
-SciPy
-Plotly
-XlsxWriter
 You can install these packages using pip:
-
-bash
-Copy code
+```bash
 pip install pandas numpy scipy plotly xlsxwriter
-Installation
-Clone or download the repository to your local machine.
-Navigate to the directory containing the script.
-Usage
+```
+
+## Installation
+1. Clone or download the repository to your local machine.
+2. Navigate to the directory containing the script.
+
+## Usage
 To run the script, use the following command:
-
-bash
-Copy code
+```bash
 python script_name.py
-Replace script_name.py with the actual name of the script.
+```
+Replace `script_name.py` with the actual name of the script.
 
-Input Data
+### Input Data
 The script expects the following input files in specific formats:
+- Raw genomic data files (CSV format)
+- Metadata files (Excel format)
 
-Raw genomic data files (CSV format)
-Metadata files (Excel format)
-Configuring the Script
-Edit the file paths in the __main__ section of the script to point to your input data files and desired output locations.
+### Configuring the Script
+Edit the file paths in the `__main__` section of the script to point to your input data files and desired output locations.
 
-Output
+### Output
 The script generates cleaned and processed data, summary statistics, graphs, and correlation tables. The output is saved in Excel format for easy sharing and analysis.
 
-Customization
+## Customization
 You can customize the script by modifying the classes and methods to suit your specific data processing and analysis needs.
 
-Support
+## Support
 For support or to report issues, please file an issue on the GitHub repository.
 
+
+---
+
+Note: Replace `[appropriate license name]` with the actual license name, if applicable. Make sure to provide the correct script name in the usage instructions and update any specific details about input data formats or configuration options based on the actual script implementation.
