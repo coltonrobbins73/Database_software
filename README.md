@@ -53,7 +53,4 @@ You can customize the script by modifying the classes and methods to suit your s
 ## Support
 For support or to report issues, please file an issue on the GitHub repository.
 
-
 ---
-
-Note: Replace `[appropriate license name]` with the actual license name, if applicable. Make sure to provide the correct script name in the usage instructions and update any specific details about input data formats or configuration options based on the actual script implementation.
