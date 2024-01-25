@@ -1,4 +1,4 @@
-# Genomic Data Analysis Script
+# Spatial Transcriptomics Analysis Package
 
 ## Overview
 This script is designed for comprehensive processing and analysis of genomic or transcriptomic data, typically used in biomedical research or similar fields. It includes functionalities for data cleaning, merging, benchmarking, statistical analysis, and visualization.
